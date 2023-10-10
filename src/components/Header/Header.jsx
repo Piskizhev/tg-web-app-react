@@ -1,8 +1,8 @@
 import { React } from "react";
 import "./Header.css";
 import Button from "../Button/Button";
-import { useTelegram } from "../hooks/useTelegram";
-
+import { useTelegram } from "../../hooks/useTelegram";
+import logo from "../../images/logo.png";
 
 
 
@@ -11,8 +11,9 @@ const Header = () => {
 const {user,onClose} = useTelegram();
  return(
     <div className="header">
+        <img src={logo} alt="logo" className="logo" />
         <span className={'username'}>
-            {user?.username}
+            {user}
         </span>
         <Button onClick={onClose}>Close</Button>
     </div>
