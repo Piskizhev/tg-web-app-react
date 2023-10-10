@@ -3,9 +3,9 @@ import "./Form.css"
 import TextType from './QuestionTypes/TextType';
 import RadioType from './QuestionTypes/RadioType';
 import CheckBoxType from './QuestionTypes/CheckBoxType';
-import list from "../../images/icons/list.svg"
-import oneA from "../../images/icons/oneA.svg"
-import severalA from "../../images/icons/severalA.svg"
+import list from "./QuestionsIcons/list.svg"
+import oneA from "./QuestionsIcons/oneA.svg"
+import severalA from "./QuestionsIcons/severalA.svg"
 
 const Form = () => {
   const [selectedOption, setSelectedOption] = useState(null);
