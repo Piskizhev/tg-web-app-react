@@ -16,7 +16,7 @@ function App() {
     <div className='App'>
       <Header />
       <Routes>
-        <Route index element={Form} />
+        <Route path='/' element={Form} />
       </Routes>
     </div>
   );
