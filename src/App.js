@@ -17,7 +17,6 @@ function App() {
       <Header />
       <Routes>
         <Route index element={Form} />
-        <Route path='form' element={Form} />
       </Routes>
     </div>
   );
