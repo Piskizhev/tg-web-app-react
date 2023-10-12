@@ -13,15 +13,12 @@ const {user,onClose} = useTelegram();
 <div className="header">
         <div className="div-logo">
         <img src={logo} alt="logo" className="logo" />
-        <span className={'username'}>
-            {user}
-        </span>
         </div>
         <div className="div-btn">
         <Button onClick={onClose}>Close</Button>
         </div>
         <div className='formTitle'>
-            <p>Questionnaire title</p>
+            <input type="text" placeholder="Questionnaire title"/>
         
         <div className='headerLine' />
         </div>

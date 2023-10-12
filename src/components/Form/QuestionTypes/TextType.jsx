@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../Form.css"
+import "./QuestionTypes.css"
 
 const TextType = () => {
   const [textInput, setTextInput] = useState("");

@@ -12,7 +12,7 @@ const MainQuestion = () => {
   return (
     <div className='question'>
       <div className='questionLable'>
-        <div className='questionNumber'>#'$question_number' Question</div>
+        <div className='questionNumber'>#1 Question</div>
         <div className='questionBin'>
           <a href='/sport-form'>
             <img src={bin} alt='delete' />
