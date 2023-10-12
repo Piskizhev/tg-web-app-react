@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./DropBox.css"
+import "./css/DropBox.css"
 import list from "../QuestionsIcons/list.svg";
 import oneA from "../QuestionsIcons/oneA.svg";
 import severalA from "../QuestionsIcons/severalA.svg";
