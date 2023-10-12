@@ -1,5 +1,6 @@
 import {React,useState} from 'react'
 import "./Form.css"
+import QuestionMain from "./MainQuestion/MainQuestion";
 import TextType from './QuestionTypes/TextType';
 import RadioType from './QuestionTypes/RadioType';
 import CheckBoxType from './QuestionTypes/CheckBoxType';
@@ -35,6 +36,7 @@ const Form = () => {
   ];
   return (
     <div className='answerTextStyle'>
+      <QuestionMain />
     <div className='answerTypeTitle'>
       <p>Answer Type</p>
     </div>
@@ -77,7 +79,7 @@ const Form = () => {
           </div>
         </div>
       )}
-      <DropBox />
+      <DropBox/>
     </div>
   </div>
   )

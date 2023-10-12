@@ -3,7 +3,7 @@ import bin from "../../../images/icons/bin.svg";
 import React, { useState } from "react";
 import AnswerType from "./Answers/AnswerType";
 
-function QuestionMain() {
+const QuestionMain = () => {
   const [inputValue, setInputValue] = useState("");
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
