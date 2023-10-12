@@ -1,7 +1,7 @@
 import "../MainQuestion/MainQuestion.css";
 import bin from "../../../images/icons/bin.svg";
 import React, { useState } from "react";
-import AnswerType from "./Answers/AnswerType";
+import DropBox from "../QuestionTypes/DropBox";
 
 const MainQuestion = () => {
   const [inputValue, setInputValue] = useState("");
@@ -31,7 +31,7 @@ const MainQuestion = () => {
             onChange={handleInputChange}
           />
         </div>
-        <AnswerType />
+        <DropBox />
       </div>
     </div>
   );
