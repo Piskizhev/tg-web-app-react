@@ -1,0 +1,68 @@
+.answerTextStyle {
+    color: #101828;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+  
+  .dropdown {
+    position: relative;
+    width: 100%;
+    height: 44px;
+  }
+  
+  .selectedOptions {
+    cursor: pointer;
+    padding: 12px 16px;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+  }
+  
+  .selectedOption,
+  .dropdownOption {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    height: 20px;
+  }
+  
+  .optionsBox {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 300px;
+    bottom: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.08);
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .dropdownOptions {
+    padding: 0 16px;
+  }
+  
+  .dropdownOption {
+    cursor: pointer;
+    padding: 12px 16px;
+  }
+  
+  .dropdownOption:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .lineOptions {
+    margin: 10px auto 13px auto;
+    width: 36px;
+    height: 5px;
+    background: #d0d5dd;
+    border-radius: 100px;
+    overflow-y: auto;
+  }
+  
