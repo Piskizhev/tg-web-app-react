@@ -1,4 +1,4 @@
-import "../css/Questions.css";
+import "../MainQuestion/MainQuestion.css";
 import bin from "../../../images/icons/bin.svg";
 import React, { useState } from "react";
 import AnswerType from "./Answers/AnswerType";
