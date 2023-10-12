@@ -3,6 +3,7 @@ import "./Form.css"
 import TextType from './QuestionTypes/TextType';
 import RadioType from './QuestionTypes/RadioType';
 import CheckBoxType from './QuestionTypes/CheckBoxType';
+import DropBox from "./QuestionTypes/DropBox";
 import list from "./QuestionsIcons/list.svg"
 import oneA from "./QuestionsIcons/oneA.svg"
 import severalA from "./QuestionsIcons/severalA.svg"
@@ -76,6 +77,7 @@ const Form = () => {
           </div>
         </div>
       )}
+      <DropBox />
     </div>
   </div>
   )
