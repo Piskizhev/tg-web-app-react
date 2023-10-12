@@ -1,5 +1,6 @@
 import {React, useState} from 'react'
 import cross from "../QuestionsIcons/cross.svg"
+import "./QuestionTypes.css"
 
 const RadioType = () => {
   const [textInputList, setTextInputList] = useState("");

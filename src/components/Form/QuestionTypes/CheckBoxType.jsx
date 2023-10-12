@@ -1,8 +1,9 @@
 import {React, useState} from 'react'
 import cross from "../QuestionsIcons/cross.svg"
+import "./QuestionTypes.css"
+
 
 const CheckBoxType = () =>  {
-
   const [textInput, setTextInput] = useState("");
   const [variantsList, setVariantsList] = useState([
     { label: "Variant 1", checked: false },

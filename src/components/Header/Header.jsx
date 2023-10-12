@@ -8,7 +8,7 @@ import logo from "../../images/logo/bear.png";
 
 
 const Header = () => {
-const {user,onClose} = useTelegram();
+const {onClose} = useTelegram();
  return(
 <div className="header">
         <div className="div-logo">
