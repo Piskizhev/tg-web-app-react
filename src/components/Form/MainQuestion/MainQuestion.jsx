@@ -3,7 +3,7 @@ import bin from "../../../images/icons/bin.svg";
 import React, { useState } from "react";
 import AnswerType from "./Answers/AnswerType";
 
-const QuestionMain = () => {
+const MainQuestion = () => {
   const [inputValue, setInputValue] = useState("");
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
@@ -37,4 +37,4 @@ const QuestionMain = () => {
   );
 }
 
-export default QuestionMain;
+export default MainQuestion;
